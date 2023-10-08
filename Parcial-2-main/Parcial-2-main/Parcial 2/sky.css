@@ -49,10 +49,12 @@ button{
 
 
 /*Freddy*/
+
 .formulario{
     background-color: #1e272e;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .imagen-form{
@@ -61,7 +63,7 @@ button{
     border-radius: 50%; 
     object-fit: cover; 
     position: relative;
-    left: 200px;
+    right: 170px;
     top: 130px;
     z-index: 1;
 }
@@ -76,7 +78,7 @@ button{
     z-index: 2;
     position: relative;
     bottom: 650px;
-    left: 200px;
+    right: 230px;
     width: 240px;
     height: 240px;
     border-radius: 50%;
@@ -87,7 +89,7 @@ button{
     z-index: 0;
     position: relative;
     bottom: 1300px;
-    left: 550px;
+    left: 130px;
     width: 300px;
     height: 300px;
     border-radius: 50%;
@@ -108,7 +110,7 @@ button{
     z-index: 0;
     position: relative;
     bottom: 400px;
-    right: 110px;
+    right: 500px;
     width: 150px;
     height: 150px;
     border-radius: 50%;
@@ -126,7 +128,7 @@ button{
 
 form{
     border-radius: 10px;
-    margin-left: 670px;
+    margin-left: 500px;
     width: 630px;
     background-color: white;
     padding: 40px;
@@ -140,6 +142,7 @@ form h1{
     padding-bottom: 30px;
     font-size: 45px;
     font-family:sans-serif;
+    font-weight: 400;
 }
 
 input,textarea {
@@ -162,6 +165,13 @@ form button{
     font-size: 25px;
     color: black;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+
+}
+
+form button:hover{
+    background-color: black;
+    color: aquamarine;
 }
 
 input:focus,textarea:focus{
@@ -175,3 +185,71 @@ input:focus,textarea:focus{
     color: white;
     font-size: 10px;
 }
+
+.edén{
+    background-color: #ff7e05;
+    padding: 20px 20px 50px 50px;
+}
+
+.ojoeden{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.texto-eden{
+    width: 500px;
+}
+
+.div-img-eden{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.imagen-eden{
+    width: 800px; 
+    height: auto;
+    margin: 50px;
+    padding-left: 50px;
+}
+
+.texto-eden h3{
+    margin-top: 50px;
+    font-size: 70px;
+    font-weight: 400;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.texto-eden p{
+    margin-top: 30px;
+    width: 500px;
+    font-family: sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 35px;
+}
+
+.texto-eden button{
+    border-style: solid;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+    align-self: center;
+    text-align: center;
+    margin: 50px auto 0 0;
+    padding: 18px 55px 18px 54px;
+    background-color: transparent;
+    cursor: pointer;
+    border-radius: 13px;
+    border-color: white;
+}
+
+.texto-eden button:hover{
+    background-color: white;
+    color: #ff7e05;
+}
+
+
