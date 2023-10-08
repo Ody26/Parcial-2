@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(219, 241, 234);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header {
+    background-color: #1e272e;
+    color: white;
+    padding: 10px 0;
+    justify-content: space-between;
+    width: 100%;
+    display: flex;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-Sky img {
+    max-width: 100px;
+}
+.menu img {
+    width: 30px;
+    cursor: pointer;
+}
+.banner{
+    position: relative;
+    overflow:visible;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+button{
+    background-color: aquamarine;
+    color: blanchedalmond;
+    border: none;
+    padding: 10px 20px;
+    font-size: small;
+    margin-top: 20px;
+}
+
+
+
+/*Freddy*/
+
+.formulario{
+    background-color: #1e272e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imagen-form{
+    width: 780px;
+    height: 780px; 
+    border-radius: 50%; 
+    object-fit: cover; 
+    position: relative;
+    right: 170px;
+    top: 130px;
+    z-index: 1;
+}
+
+.circulo{
+    display: flex;
+    height: 0;
+}
+
+.circulo1{
+    background-color: aquamarine;
+    z-index: 2;
+    position: relative;
+    bottom: 650px;
+    right: 230px;
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+}
+
+.circulo2{
+    background-color: aquamarine;
+    z-index: 0;
+    position: relative;
+    bottom: 1300px;
+    left: 130px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.minicirculo{
+    background-color: #1e272e;
+    position: absolute;
+    left: 55px;
+    top: 55px;
+    width: 190px;
+    height: 190px;
+    border-radius: 50%;
+}
+
+.circulo3{
+    background-color: aquamarine;
+    z-index: 0;
+    position: relative;
+    bottom: 400px;
+    right: 500px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.minicirculo1{
+    background-color: #1e272e;
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+
+form{
+    border-radius: 10px;
+    margin-left: 500px;
+    width: 630px;
+    background-color: white;
+    padding: 40px;
+    font-size: 15px;
+    position: relative;
+    bottom: 150px;
+    z-index: 2;
+}
+
+form h1{
+    padding-bottom: 30px;
+    font-size: 45px;
+    font-family:sans-serif;
+    font-weight: 400;
+}
+
+input,textarea {
+    outline: none;
+    border-radius: 10px;
+    border: solid 1px gray;
+    padding: 15px;
+    margin-bottom: 15px;
+    width: 530px;
+    background-color: rgb(210, 210, 210);
+}
+
+form button{
+    width: 530px;
+    height: 60px;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+    bottom: 30px;
+    font-size: 25px;
+    color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+
+}
+
+form button:hover{
+    background-color: black;
+    color: aquamarine;
+}
+
+input:focus,textarea:focus{
+    border-color: aqua;
+}
+
+.footer {
+    background-color: rgb(58, 53, 53);
+    text-align: center;
+    padding: 43px;
+    color: white;
+    font-size: 10px;
+}
+
+.edén{
+    background-color: #ff7e05;
+    padding: 20px 20px 50px 50px;
+}
+
+.ojoeden{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.texto-eden{
+    width: 500px;
+}
+
+.div-img-eden{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.imagen-eden{
+    width: 800px; 
+    height: auto;
+    margin: 50px;
+    padding-left: 50px;
+}
+
+.texto-eden h3{
+    margin-top: 50px;
+    font-size: 70px;
+    font-weight: 400;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.texto-eden p{
+    margin-top: 30px;
+    width: 500px;
+    font-family: sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 35px;
+}
+
+.texto-eden button{
+    border-style: solid;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+    align-self: center;
+    text-align: center;
+    margin: 50px auto 0 0;
+    padding: 18px 55px 18px 54px;
+    background-color: transparent;
+    cursor: pointer;
+    border-radius: 13px;
+    border-color: white;
+}
+
+.texto-eden button:hover{
+    background-color: white;
+    color: #ff7e05;
+}
+
+
