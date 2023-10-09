@@ -1058,7 +1058,7 @@ footer {
         
     }
     .Avatares #nube-avbutton{
-        margin-top: 2700px;
+        margin-top: 2600px;
         width:420%;
         height: 55%;
         position: absolute;
@@ -1066,8 +1066,11 @@ footer {
         margin-right: 320%;
         margin-left: 0%;
     }
+    .razones{
+        margin-top: 3000px;
+    }
     .razones #nube-razones{
-        margin-top: -900px;
+        margin-top: -4000px;
         width:420%;
         height: 55%;
         position: absolute;
@@ -1077,7 +1080,71 @@ footer {
     }
     
     .razones{
-        margin-top: 4000px;
+        width: 1730px;
+        height: 4500px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(248, 242, 246);
+    }
+
+    .razones .lista{
+        position: relative;
+        left: 0%;
+        width: 80%;
+        height: 35%;
+    }
+
+    .razones ul{
+        margin-left: 6%;
+        font-size: 60px;
+        margin-top: 6%;
+    }
+
+    .razones h3{
+        font-size: 100px;
+        margin: 150px 30px 150px 30px;
+    }
+
+    .razones button{
+        width: 50%;
+        height: 12%;
+        margin: 10% 3% 5% 3%;
+        margin-top: 5%;
+        border-radius: 30px;
+        border-width: 1%;
+        font-size: 70px;
+
+    }
+
+    .razones #Sky-img{
+        position: relative;
+        width: 1130px;
+        height: 1130px;
+        z-index: 2;
+        margin-left: 0%;
+        top: 600px;
+    }
+    .razones #Sky-img0{
+        display: flex;
+        position: absolute;
+        width: 900px;
+        height: 900px;
+        margin-top: -200px;
+        left: 500px;
+        border-radius: 50%;
+        z-index: 2;
+    }
+    .razones #circulo-naranja{
+        position: relative;
+        width: 1230px;
+        height: 1230px;
+        background-color: rgba(209, 165, 239, 0.964);
+        border-radius: 50%;
+        left: 2%;
+        bottom: 850px;
+        z-index:1;
     }
     .edén #nube-Eden1{
         width:420%;
@@ -1108,7 +1175,7 @@ footer {
     }
     .edén{
         width: 1730px;
-        margin-top: 600%;
+        margin-top: 60%;
     }
 
     .ojoeden{
