@@ -442,8 +442,11 @@ h3{
     margin-top: 50px;
     margin-left: 20px;
     padding: 15px;
+    border-style: solid;
     border-radius: 10px;
+    border-width: 5px;
     width: 40%;
+    letter-spacing: 5px;
     align-items: center;
     background-color: rgba(227, 205, 243, 0.964);
     border-color: #5b248b;
@@ -840,6 +843,72 @@ input:focus,textarea:focus{
     }
 
     /*Freddy*/
+    .razones{
+        width: 1730px;
+        height: 4500px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: gray; /*Para identificar seccion, puede borrar*/
+    }
+
+    .razones .lista{
+        position: relative;
+        left: 0%;
+        width: 80%;
+        height: 35%;
+    }
+
+    .razones ul{
+        margin-left: 6%;
+        font-size: 60px;
+        margin-top: 6%;
+    }
+
+    .razones h3{
+        font-size: 100px;
+        margin: 150px 30px 150px 30px;
+    }
+
+    .razones button{
+        width: 50%;
+        height: 12%;
+        margin: 10% 3% 10% 3%;
+        border-radius: 30px;
+        font-size: 70px;
+
+    }
+
+    .razones #Sky-img{
+        position: relative;
+        width: 1130px;
+        height: 1130px;
+        z-index: 2;
+        margin-left: 0%;
+        top: 600px;
+    }
+    .razones #Sky-img0{
+        display: flex;
+        position: absolute;
+        width: 900px;
+        height: 900px;
+        top: 6300px;
+        left: 500px;
+        border-radius: 50%;
+        z-index: 2;
+    }
+    .razones #circulo-naranja{
+        position: relative;
+        width: 1230px;
+        height: 1230px;
+        background-color: rgba(209, 165, 239, 0.964);
+        border-radius: 50%;
+        left: 2%;
+        bottom: 850px;
+        z-index:1;
+    }
+
     .edén{
         width: 1730px;
     }
