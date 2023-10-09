@@ -1,21 +1,27 @@
-*{
+/* Estilos globales para restablecer márgenes, rellenos y el modelo de caja */
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+/* Estilos generales para el cuerpo de la página */
+body {
     margin: 0;
     padding: 0;
     background-color: #ffffff;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+/* Estilos para el encabezado de la página */
 header {
     padding: 0;
     width: 100%;
 }
 
+/* Estilos para el logo de Sky */
 .logo-Sky img {
-    position: fixed;
+    position: fixed; /* Posicionamiento fijo en la esquina superior izquierda */
     top: 0;
     left: 0;
     z-index: 3;
@@ -23,8 +29,9 @@ header {
     margin-top: 1%;
     margin-left: 0.5%;
 }
+/* Estilos para el menú de la página */
 .menu img {
-    position: fixed;
+    position: fixed;/* Posicionamiento fijo en la esquina superior derecha */
     top: 0;
     right: 0;
     z-index: 3;
@@ -32,26 +39,31 @@ header {
     margin-top: 1%;
     margin-right: 1%;
 }
-.clouds img{
+/* Estilos para las imágenes de nubes en el encabezado */
+.clouds img {
     width: 100%;
     position: fixed;
     z-index: 3;
 }
 
-.banner .titulo{
+/* Estilos para el banner principal de la página */
+.banner .titulo {
     width: 100%;
     height: 10%;
     margin-top: 5%;
     position: absolute;
     text-align: center;
+    /* Fondo con degradado */
     background: linear-gradient(to right, rgba(218, 215, 215, 0.352), rgba(218, 215, 215, 0.352));
 }
-.banner h1{
+/* Estilos para el título dentro del banner */
+.banner h1 {
     color: #26427d;
     font-size: xxx-large;
     margin-top: 1%;
 }
-.banner{
+/* Estilos generales para el contenedor del banner */
+.banner {
     position: relative;
     height: 100%;
     width: 100%;
@@ -59,21 +71,23 @@ header {
     justify-content: center;
     align-items: center;
 }
-.banner img{
+/* Estilos para las imágenes dentro del banner (fondo) */
+.banner img {
     position: relative;
     height: 100%;
     width: 100%;
 }
-.banner .logo-banner img{
+/* Estilos para el logo dentro del banner */
+.banner .logo-banner img {
     z-index: 1;
     position: absolute;
     top: 12%;
     left: 40%;
     width: auto;
     height: auto;
-    
 }
-.banner button{
+/* Estilos para el botón dentro del banner */
+.banner button {
     background-color: rgba(255, 255, 255, 0.959);
     position: absolute;
     margin-top: 20%;
@@ -84,12 +98,14 @@ header {
     font-size: 20px;
 }
 
+/* Estilos para el botón al pasar el cursor sobre él */
 .banner button:hover {
     background-color: #2e6087e6;
     color: rgb(124, 198, 209);
 }
 
-.banner .n-blanca-banner img{
+/* Posicionamiento de la imagen de nube blanca en el banner */
+.banner .n-blanca-banner img {
     width: 100%;
     position: absolute;
     z-index: 2;
@@ -97,14 +113,16 @@ header {
     margin-top: 12%;
     left: 0;
 }
-.Temporadas{
+/* Estilos para la sección Temporadas */
+.Temporadas {
     background-color: #ffffff;
     justify-content: space-between;
     margin-top: 5%;
     display: flex;
     justify-content: center;
 }
-.Temporadas .articulo1, .articulo2, .articulo3, .articulo4{
+/* Estilos para los contenedores dentro de la sección Temporadas */
+.Temporadas .articulo1, .articulo2, .articulo3, .articulo4 {
     width: 20%;
     height: 40%;
     padding: 30px;
@@ -117,7 +135,8 @@ header {
     margin-top: 7%;
 }
 
-h2{
+/* Estilos para el título h2 (sección de temporadas) */
+h2 {
     color: rgba(10, 48, 90, 0.789);
     position: absolute;
     z-index: 2;
@@ -125,36 +144,41 @@ h2{
     font-size: xx-large;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.Temporadas p{
+/* Estilos para el párrafo dentro de la sección Temporadas */
+.Temporadas p {
     color: #041134;
     margin-top: 6%;
     font-size: large;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+/* Estilos para las imagenes dentro de los contenedores de la sección de temporadas */
 .articulo1 img, .articulo2 img, .articulo3 img, .articulo4 img{
     height: 130px;
     width: 226px;
     border-radius: 2%;
 }
-.Temporadas a{
+/* Estilos para los enlaces dentro de la sección Temporadas */
+.Temporadas a {
     color: #3a98e0;
     text-decoration: underline;
-    
 }
-.Temporadas #nube-blanca-button{
+/* Estilos para una imagen de nube en la sección Temporadas */
+.Temporadas #nube-blanca-button {
     width: 100%;
     position: absolute;
-    z-index:0;
+    z-index: 0;
     height: 50%;
     margin-top: 20%;
     transform: rotate(180deg);
 }
-.About-comunidad #fondo-secomun{
-    position:relative;
+/* Estilos específicos para la imagen de fondo de la sección de temporadas */
+.About-comunidad #fondo-secomun {
+    position: relative;
     height: 100%;
     width: 100%;
     z-index: -1;
 }
+/* En la versión de computadora esta sección no se visualiza */
 .About-comunidad #fondo-secomun2{
     display: none;
     position:relative;
@@ -162,6 +186,7 @@ h2{
     width: 100%;
     z-index: -1;
 }
+/* En la versión de computadora esta sección no se visualiza */
 .About-comunidad #fondo-secomun3{
     display: none;
     position:relative;
@@ -169,32 +194,36 @@ h2{
     width: 100%;
     z-index: -1;
 }
-.About-comunidad .descrip-comunidad{
-    position:absolute;
+/* Estilos para la descripción de la comunidad en la sección About-comunidad */
+.About-comunidad .descrip-comunidad {
+    position: absolute;
     z-index: 1;
     width: 50%;
     margin-top: -48%;
     height: 78%;
     background: linear-gradient(to right, rgba(140, 180, 199, 0.868), rgba(118, 200, 211, 0.352));
     margin-left: 10%;
-    border-radius:10px;
+    border-radius: 10px;
     padding: 20px;
 }
-h3{
+/* Estilos para el título h3 en la descripción de la comunidad */
+h3 {
     margin: 10px;
     margin-right: 25%;
     color: rgb(23, 23, 83);
-    font-size:40px;
+    font-size: 40px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.descrip-comunidad p{
+/* Estilos para el párrafo en la descripción de la comunidad */
+.descrip-comunidad p {
     margin-top: 20px;
     margin-left: 10px;
     margin-right: 28%;
     text-align: left;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-.descrip-comunidad button{
+/* Estilos para el botón en la descripción de la comunidad */
+.descrip-comunidad button {
     margin-top: 40px;
     margin-left: 20px;
     padding: 15px;
@@ -206,6 +235,7 @@ h3{
     font-size: 15px;
     font-weight: bold;
 }
+/* Estilos para contenedor de las imágenes de la sección de comunidad */
 .About-comunidad .img-comun{
     position: absolute;
     z-index: 2;
@@ -216,7 +246,7 @@ h3{
     margin-top: -50%;
     margin-left: 55%;
 }
-
+/* Estilos para el elemento gráfico de circulo en rayas  */
 .About-comunidad #img-rayas{
     right: 46%;
     width: 75%;
@@ -224,6 +254,7 @@ h3{
     margin-top: 14%;
     position: absolute;
 }
+/* Estilos para imágenes de la sección About-comunidad */
 .About-comunidad #img-unete{
     right: 34%;
     width: 75%;
@@ -231,6 +262,7 @@ h3{
     margin-top: 3.5%;
     position: absolute;
 }
+/* Estilos para la nube en la sección de About-comunidad */
 .About-comunidad #nube-blanca-secomun{
     width: 100%;
     position: absolute;
@@ -239,6 +271,7 @@ h3{
     right: 0;
     margin-top: -10%;
 }
+/* Estilos para la nube en la sección de guia para jugar Sky */
 .guia #nube-blanca-secguia{
     width: 100%;
     position: absolute;
@@ -248,7 +281,7 @@ h3{
     transform: rotate(180deg);
     margin-top: -2%;
 }
-
+/* Estilos para la imagen de fondo de la sección de guia */
 .guia #fondo-secguia{
     position: relative;
     height: 50%;
@@ -256,7 +289,7 @@ h3{
     z-index: -1;
     bottom: 40px
 }
-
+/* Estilos para el contenedor de la descripción de guia */
 .guia .descrip-guia{
     position: absolute;
     z-index: 1;
@@ -269,6 +302,7 @@ h3{
     padding: 25px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
 }
+/* Estilos para el párrafo del contenedor de descripción guia*/
 .descrip-guia p{
     margin-top: 25px;
     margin-left: 10px;
@@ -278,7 +312,8 @@ h3{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 20px;
 }
-.descrip-guia  button{
+/* Estilos para un botón dentro de .descrip-guia */
+.descrip-guia button {
     background-color: rgb(237, 169, 169);
     position: absolute;
     bottom: 10%;
@@ -289,7 +324,8 @@ h3{
     font-size: 16px;
     margin-left: 2%;
 }
-.guia #img-guia{
+/* Estilos para una imagen con id #img-guia dentro de .guia */
+.guia #img-guia {
     position: absolute;
     z-index: 0;
     right: 15%;
@@ -297,16 +333,18 @@ h3{
     width: 40%;
     height: 100%;
 }
-.guia #circle{
+/* Estilos para un círculo con id #circle dentro de .guia */
+.guia #circle {
     position: absolute;
     width: 250px;
     height: 250px;
     background-color: rgba(246, 226, 226, 0.964);
     border-radius: 50%;
     margin-top: -89%;
-    left: 13%
+    left: 13%;
 }
-.guia #cuadro-difum{
+/* Estilos para un cuadro difuminado con id #cuadro-difum dentro de .guia */
+.guia #cuadro-difum {
     position: absolute;
     width: 650px;
     height: 280px;
@@ -316,6 +354,7 @@ h3{
     z-index: -1;
     opacity: 0.7;
 }
+/* Estilos para un círculo con rayas con id #circle-rayas dentro de .guia */
 .guia #circle-rayas {
     position: absolute;
     margin-top: -45%;
@@ -326,15 +365,16 @@ h3{
     border-radius: 50%;
     transform: rotate(160deg);
     background: repeating-linear-gradient(
-    to bottom,
-    #ebb1b1,
-    #d39797 2px,
-    transparent 2px,
-    transparent 6px
+        to bottom,
+        #ebb1b1,
+        #d39797 2px,
+        transparent 2px,
+        transparent 6px
     );
 }
 
-.guia #nube-button-guia{
+/* Estilos para una imagen con id #nube-button-guia dentro de .guia */
+.guia #nube-button-guia {
     width: 100%;
     position: absolute;
     z-index: 1;
@@ -342,6 +382,7 @@ h3{
     left: 0%;
     margin-top: 80%;
 }
+/* Estilos para nubes en la sección de Avatares */
 .Avatares #nube-av{
     width: 100%;
     position: absolute;
@@ -358,6 +399,7 @@ h3{
     transform: rotate(180deg);
     left: 0;
 }
+/* Estilos para la sección de avatares personalizados */
 .Av-personalizado{
     display: flex;
     justify-content: space-between;
@@ -367,6 +409,7 @@ h3{
     left: 6%;
 
 }
+/* Estilo para la imagen de fondo que está en la sección guia */
 .Avatares #fondo-secav{
     position: relative;
     height: 100%;
@@ -374,6 +417,7 @@ h3{
     z-index: 0;
     margin-top: 4%;
 }
+/* Estilos para los contenedores de avatares y sus descripciones */
 .Av-personalizado .Avatar1, .Avatar2, .Avatar3{
     text-align: center;
     background: linear-gradient(to right, rgba(69, 85, 94, 0.868), rgba(69, 85, 94, 0.868));
@@ -383,6 +427,7 @@ h3{
     height: 450px;
     width: 50%;
 }
+/* Estilos para el texto de las descripciones de avatares */
 .Av-personalizado p{
     color: white;
     font-size: 16px;
@@ -391,16 +436,18 @@ h3{
     justify-content: center;
     margin-bottom: 30px;
 }
+/* Estilos para los nombres de los avatares */
 .Av-personalizado h4{
     color: aliceblue;
     margin-top: 8%;
 }
-
+/* Diseño  para las imágenes que van dentro de los contenedores de la sección avatar */
 .Avatar1 img, .Avatar2 img, .Avatar3 img{
     width: 200px;
     height: 200px;
     border-radius: 50%;
 }
+/* Estilos para el título de la sección Avatares */
 .Avatares h3{
     position:absolute;
     margin-top: -48%;
@@ -411,6 +458,7 @@ h3{
     left: 35%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+/* Estilos para una nube en la parte inferior de la sección Avatares */
 .Avatares #nube-avbutton{
     width: 100%;
     position: absolute;
@@ -419,6 +467,7 @@ h3{
     left: 0;
     margin-top: 38%;
 }
+/* Estilos para una nube en la sección de Razones */
 .razones #nube-razones{
     width: 100%;
     position: absolute;
@@ -428,6 +477,7 @@ h3{
     margin-top: -20%;
     transform: rotate(180deg);
 }
+/* Diseño para la lista de razones para jugar Sky */
 .razones .lista{
     position: relative;
     z-index: 1;
@@ -440,6 +490,7 @@ h3{
     border-radius: 5%;
     z-index: 3;
 }
+/* Diseño para el formato de la lista de las razones */
 .razones ul{
     list-style:disc;
     margin-left: 6%;
@@ -448,9 +499,11 @@ h3{
     color: #630761e6;
     margin-top: 6%;
 }
+/* Color del tel titulo de la sección de razones */
 .razones h3{
     color: #3f0649;
 }
+/* Estilo y diseño del botón para que se vea visualmente agradable dentro del contenedor */
 .razones button{
     margin-top: 50px;
     margin-left: 20px;
@@ -465,6 +518,7 @@ h3{
     font-size: 15px;
     font-weight: bold;
 }
+/* Estilo de la imagen de fondo de la sección de Sky */
 .razones #Sky-img{
     position: absolute;
     width: 420px;
@@ -473,6 +527,7 @@ h3{
     z-index: -1;
     margin-left: 15%;
 }
+/* Estilo y diseño de la segunda imagen en la sección de raazones */
 .razones #Sky-img0{
     position: absolute;
     margin-top: 20%;
@@ -482,6 +537,7 @@ h3{
     border-radius: 50%;
     z-index:0;
 }
+/* Creación del circulo naranja que aparece en la plantilla */
 .razones #circulo-naranja{
     position: absolute;
     width: 310px;
@@ -492,7 +548,7 @@ h3{
     margin-top: -8%;
     z-index:-2;
 }
-
+/* Estilo de la imagen nube que va en la sección superior de Edén*/
 .edén #nube-Eden1{
     width: 100%;
     position: absolute;
@@ -501,6 +557,7 @@ h3{
     left: 0;
     margin-top: -25%;
 }
+/* Estilo de la segunda nube en la sección "Edén" */
 .edén #nube-Eden2{
     width: 100%;
     position: absolute;
@@ -519,13 +576,13 @@ h3{
     margin-top: 2%;
     transform: rotate(180deg);
 }
-
+/* Estilo y diseño general de la sección "Edén" */
 .edén{
     background: linear-gradient(to right, rgba(243, 93, 79, 0.903), rgba(213, 81, 29, 0.673));
     padding: 20px 20px 50px 50px;
     margin-top: 15%;
 }
-
+/* Estilo y diseño del contenedor que se ubica en la sección de Edén */
 .ojoeden{
     display: flex;
     justify-content: center;
@@ -537,7 +594,7 @@ h3{
     margin-top: 12%;
     width: 500px;
 }
-
+/* Diseñor del contenedor de las imagenes de Edén */
 .div-img-eden{
     display: flex;
     flex-direction: column;
@@ -551,7 +608,7 @@ h3{
     padding-left: 50px;
     margin-bottom: 25%;
 }
-
+/* Estilo del titulo del contendor  */
 .texto-eden h3{
     margin-top: 36px;
     font-size: 70px;
@@ -594,6 +651,7 @@ h3{
     background-color: rgb(247, 128, 128);
     color: #fefefe;
 }
+/* Estilo y diseño de las nubes en la parte inferior de la sección de Edén */
 .edén #nube-eden-button{
     width: 100%;
     position: absolute;
@@ -610,6 +668,7 @@ h3{
     left: 0;
     margin-top: -12%;
 }
+/* Estilo y diseño de las nubes de la parte superior de la sección formulario */
 .formulario #nube-formtop{
     width: 100%;
     position: absolute;
@@ -619,6 +678,7 @@ h3{
     margin-top: -12%;
     transform: rotate(180deg);
 }
+/* Estilo general del contenedor formulario*/
 .formulario{
     margin-top: 15%;
     background-color: #1e272e;
@@ -637,7 +697,7 @@ h3{
     top: 130px;
     z-index: 2;
 }
-
+/* Creación del elemento grafico que aparece en la plantilla */
 .circulo{
     display: flex;
     height: 0;
@@ -697,7 +757,7 @@ h3{
     height: 90px;
     border-radius: 50%;
 }
-
+/* Estilo y diseño del formulario */
 form{
     border-radius: 10px;
     margin-left: 500px;
@@ -710,7 +770,6 @@ form{
     z-index: 2;
     margin-right: 0%;
 }
-
 form h1{
     padding-bottom: 30px;
     font-size: 45px;
@@ -746,11 +805,11 @@ form button:hover{
     background-color: black;
     color: rgb(124, 198, 209);
 }
-
+/*  cambia el color del borde de los campos de entrada (input) y las áreas de texto (textarea) a "aqua"  */
 input:focus,textarea:focus{
     border-color: aqua;
 }
-
+/*Diseño general del footer*/
 footer {
     text-align: center;
     margin-top: 0%;
@@ -759,15 +818,16 @@ footer {
     font-size: 15px;
     background-color: #070d0d;
 }
-
+/* Se aplica responsive design para un celular con ancho máximo de 420px */
 @media (max-width: 420px) {
+    /* Se ajusta el ancho del logo */
     .logo-Sky img {
         width: 6%;
     }
-
     .menu img {
         width: 5%;
     }
+    /* Se ajusta el ancho y la altura de la imagen de fondo del banner */
     .fondo-banner img{
         width: 420%;
         height: fit-content;
@@ -782,7 +842,7 @@ footer {
         width: 100%;
         height: 10%;
     }
-
+    /* Se ajusta la posición de la nube y su ancho para que se ajuste a la pantalla */
     .banner .n-blanca-banner img{
         width:420%;
         position: absolute;
@@ -791,6 +851,7 @@ footer {
         margin-top: 90%;
         margin-left: 0%;
     }
+    /* Se ajusta las dimensiones de la franja gris del fondo del titulo "children of the light" */
     .banner .titulo{
         padding: 10%;
         width: 420%;
@@ -808,6 +869,7 @@ footer {
         padding-right: 30%;
         padding-left: 30%;
     }
+    /* Se ajusta las dimensiones de la sección Temporadas para que se adaptara a la pantalla */
     .Temporadas{
         height: 500%;
         width: 420%;
@@ -847,7 +909,7 @@ footer {
         margin-top: 890%;
         margin-left: 0%;
     }
-
+    /* Ajustes de la sección comunidad y sus elementos para que se adapten a la pantalla del cel */
     .About-comunidad{
         width: 420%;
         background: linear-gradient(to right, rgba(106, 105, 105, 0.903), rgba(169, 168, 167, 0.673));
@@ -879,6 +941,7 @@ footer {
         margin-top: 7%;
         font-size: 45px;
     }
+    /* Imagen principal de fondo de la sección de comunidad */
     .About-comunidad .img-comun{
         z-index: 0;
         margin-left: 135%;
@@ -887,10 +950,12 @@ footer {
         height: 110%;
 
     }
+    /* Ajuste de la imagen relacionada a Sky */
     .About-comunidad #img-unete{
         width: 90%;
         margin-top: 100px;
     }
+    /* Ajuste de la segunda imagen de fondo de la sección comunidad */
     .About-comunidad #fondo-secomun2{
         position:relative;
         height: 100%;
@@ -901,6 +966,7 @@ footer {
         transform: rotate(180deg);
         margin-top: -2%;
     }
+    /* Ajuste de la tercera imagen de fondo de la sección comunidad (esto para que tenga más altura y no altere el diseño)*/
     .About-comunidad #fondo-secomun3{
         position:relative;
         height: 100%;
@@ -924,6 +990,7 @@ footer {
         margin-right: -320%;
         margin-left: 0%;
     }
+    /* Ajuste de la sección de comunidad y sus elementos con el fin de hacer un diseño responsive */
     .guia #nube-blanca-secguia{
         width:420%;
         position: absolute;
@@ -997,7 +1064,7 @@ footer {
         margin-right: 320%;
         margin-left: 0%;
     }
-    
+    /* Ajuste de la sección de avatar y sus elementos para que se adapten a la pantalla de 420px */
     .Avatares #nube-av{
         width:420%;
         height: 55%;
@@ -1066,6 +1133,7 @@ footer {
         margin-right: 320%;
         margin-left: 0%;
     }
+    /* Ajuste de la sección de razones y los elementos que contienen con el fin de que se adapten al tamaño de la pantalla */
     .razones{
         margin-top: 3000px;
     }
@@ -1146,6 +1214,7 @@ footer {
         bottom: 850px;
         z-index:1;
     }
+    /* Ajuste de la posición de nubes para la parte superior de la sección de Edén */
     .edén #nube-Eden1{
         width:420%;
         height: 55%;
@@ -1173,6 +1242,7 @@ footer {
         margin-left: 0%;
         margin-top: -120px;
     }
+    /* Ajuste de la sección de Edén y sus elementos con el fin de adaptarlos a la pantalla del 420px */
     .edén{
         width: 1730px;
         margin-top: 60%;
@@ -1181,7 +1251,7 @@ footer {
     .ojoeden{
         flex-direction: column;
     }
-
+    /* Ajuste del contenedor de la descripción y sus elementos para la sección del Edén */
     .texto-eden{
         width: 90%;
         height: 50%;
@@ -1208,7 +1278,7 @@ footer {
         width: 700px;
         height: 200px;
     }
-
+    /* Ajuste de las dimensiones de la imagen que aparece en la sección del Edén */
     .imagen-eden{
         width: 1500px;
         height: auto;
@@ -1217,6 +1287,7 @@ footer {
         margin-bottom: 10%;
         margin-top: 10%;
     }
+    /* Ajuste de las nubes de la parte inferior de la sección de Edén */
     .edén #nube-eden-button{
         width:420%;
         height: 55%;
@@ -1244,7 +1315,7 @@ footer {
         margin-left: 0%;
         margin-top: -40px;
     }
-
+    /* Ajuste de la sección del formulario y sus elementos*/
     .formulario{
         width: 1930px;
         height: 5000px;
@@ -1256,7 +1327,7 @@ footer {
         margin-left: 18%;
         margin-top: 500px;
     }
-
+    /* Creación de elementos gráficos que aparecen de la plantilla */
     .circulo1{
         background-color: rgb(95, 159, 208);
         bottom: 2300px;
@@ -1286,6 +1357,7 @@ footer {
     .formulario{
         width: 420%;
     }
+    /* Austs de las dimensiones para el  form y sus campos*/
     form{
         border-radius: 50px;
         margin-left: 10%;
@@ -1302,7 +1374,7 @@ footer {
         padding: 100px 0 100px 0;
         font-size: 110px;
     }
-    
+    /* Ajustes del text area para que se adapte mejor a la pantalla del cel */
     input,textarea {
         border-radius: 40px;
         border: solid 3px gray;
@@ -1322,7 +1394,7 @@ footer {
         border-radius: 40px;
         font-size: 80px;
     }
-
+    /* Ajuste de las dimensiones para que el footer se adapte a la pantalla de 420px*/
     footer {
         margin-top: -70px;
         width: 460%;
