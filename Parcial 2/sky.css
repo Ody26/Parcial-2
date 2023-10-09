@@ -47,7 +47,7 @@ header {
     background: linear-gradient(to right, rgba(218, 215, 215, 0.352), rgba(218, 215, 215, 0.352));
 }
 .banner h1{
-    color: #ffffff;
+    color: #26427d;
     font-size: xxx-large;
     margin-top: 1%;
 }
@@ -1246,7 +1246,7 @@ footer {
     }
 
     .formulario{
-        width: 1730px;
+        width: 1930px;
         height: 5000px;
     }
     
@@ -1283,17 +1283,19 @@ footer {
         width: 450px;
         height: 450px;
     }
-
+    .formulario{
+        width: 420%;
+    }
     form{
         border-radius: 50px;
         margin-left: 10%;
-        margin-right: 10%;
-        width: 80%;
+        margin-right: 20%;
+        width: 70%;
         height: 45%;
         padding: 80px;
         font-size: 70px;
         position: relative;
-        top: 1200px;
+        top: 850px;
     }
 
     form h1{
@@ -1322,9 +1324,11 @@ footer {
     }
 
     footer {
-        width: 1730px;
+        margin-top: -70px;
+        width: 460%;
         height: 300px;
         font-size: 35px;
-        padding: 20%;
+        margin-left: 0%;
+        padding:20%;
     }
 }
