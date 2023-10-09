@@ -6,7 +6,7 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: #070d0d;
+    background-color: #ffffff;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 header {
@@ -155,6 +155,20 @@ h2{
     width: 100%;
     z-index: -1;
 }
+.About-comunidad #fondo-secomun2{
+    display: none;
+    position:relative;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+.About-comunidad #fondo-secomun3{
+    display: none;
+    position:relative;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
 .About-comunidad .descrip-comunidad{
     position:absolute;
     z-index: 1;
@@ -203,7 +217,6 @@ h3{
     margin-left: 55%;
 }
 
-
 .About-comunidad #img-rayas{
     right: 46%;
     width: 75%;
@@ -224,7 +237,7 @@ h3{
     z-index: 1;
     height: 25%;
     right: 0;
-    margin-top: 54%;
+    margin-top: -10%;
 }
 .guia #nube-blanca-secguia{
     width: 100%;
@@ -738,7 +751,7 @@ input:focus,textarea:focus{
     border-color: aqua;
 }
 
-.footer {
+footer {
     text-align: center;
     margin-top: 0%;
     padding: 20px;
@@ -749,7 +762,7 @@ input:focus,textarea:focus{
 
 @media (max-width: 420px) {
     .logo-Sky img {
-        width: 5%;
+        width: 6%;
     }
 
     .menu img {
@@ -760,19 +773,16 @@ input:focus,textarea:focus{
         height: fit-content;
     }
     .banner .logo-banner img{
-        width: 100%;
+        width: 120%;
         margin-top: 20%;
-        left: 140%;
+        left: 145%;
     }
 
     .clouds img {
         width: 100%;
+        height: 10%;
     }
 
-    .banner .titulo {
-        height: 15%;
-        margin-top: 5%;
-    }
     .banner .n-blanca-banner img{
         width:420%;
         position: absolute;
@@ -785,61 +795,469 @@ input:focus,textarea:focus{
         padding: 10%;
         width: 420%;
         left: 0%;
-        margin-top: 90%;
+        margin-top: 80%;
     }
     .banner h1 {
-        font-size: xxx-large;
-        margin-top: 1%;
+        font-size: 75px;
+        margin-top: -2%;
     }
-
     .banner button {
         margin-top: 165%;
-        font-size: 20px;
+        font-size: 50px;
         margin-left: 320%;
-        padding-right: 10%;
-        padding-left: 10%;
+        padding-right: 30%;
+        padding-left: 30%;
     }
     .Temporadas{
+        height: 500%;
         width: 420%;
         flex-direction: column;
-        height: 440%;
     }
 
     .Temporadas .articulo1, .articulo2, .articulo3, .articulo4 {
-        width: 50%;
-        margin-left: 27%;
+        width: 70%;
+        margin-left: 15%;
         height: 100%;
         margin-bottom: -2%;
     }
     .Temporadas p{
-        font-size: xx-large;
+        font-size: 60px;
+        margin-top: 5px;
     }
     .Temporadas a{
-        font-size: x-large;
+        font-size: 50px;
     }
     .Temporadas .articulo1 img, .articulo2 img, .articulo3 img, .articulo4 img{
-        width: 700px;
+        width: 900px;
         height: auto;
         margin-top: 5%;
     }
-    h2{
-        margin-top: -700%;
-        margin-left: 165%;
-        font-size: xx-large;
+    .Temporadas h2{
+        margin-top: -825%;
+        margin-left: 480px;
+        font-size:75px;
         z-index: 7;
-        
+        width: 200%;
     }
     .Temporadas #nube-blanca-button{
         width:420%;
         position: absolute;
-        z-index: 6;
+        z-index: 0;
         height: 25%;
-        margin-top: 790%;
+        margin-top: 890%;
         margin-left: 0%;
     }
+
+    .About-comunidad{
+        width: 420%;
+        background: linear-gradient(to right, rgba(106, 105, 105, 0.903), rgba(169, 168, 167, 0.673));
+
+    }
+    .About-comunidad .descrip-comunidad{
+        flex-direction: column;
+        width: 1300px;
+        margin-left: 42%;
+        border-radius: 4%;
+        margin-top: -220%;
+        height: 1600px;
+    }
+    .About-comunidad p{
+        font-size: 60px;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 5%;
+    }
+    .About-comunidad h3{
+        font-size: 65px;
+        margin-left: 5%;
+    }
+    .About-comunidad button{
+        padding: 3%;
+        margin-left: 5%;
+        border-radius: 12%;
+        width: 28%;
+        margin-top: 7%;
+        font-size: 45px;
+    }
+    .About-comunidad .img-comun{
+        z-index: 0;
+        margin-left: 135%;
+        width: 170%;
+        margin-top:210%;
+        height: 110%;
+
+    }
+    .About-comunidad #img-unete{
+        width: 90%;
+        margin-top: 100px;
+    }
+    .About-comunidad #fondo-secomun2{
+        position:relative;
+        height: 100%;
+        width: 100%;
+        z-index: -1;
+        background: linear-gradient(to row, rgba(61, 60, 60, 0.903), rgba(95, 95, 94, 0.673));
+        display: flex;
+        transform: rotate(180deg);
+        margin-top: -2%;
+    }
+    .About-comunidad #fondo-secomun3{
+        position:relative;
+        height: 100%;
+        width: 100%;
+        z-index: -1;
+        background: linear-gradient(to row, rgba(61, 60, 60, 0.903), rgba(95, 95, 94, 0.673));
+        display: flex;
+        margin-top: -4%;
+
+    }
+    .About-comunidad #img-rayas{
+        width: 100%;
+        margin-top: 40%;
+    }
+    .About-comunidad #nube-blanca-secomun{
+        width:420%;
+        position: absolute;
+        z-index: 1;
+        height: 55%;
+        margin-top: -55%;
+        margin-right: -320%;
+        margin-left: 0%;
+    }
+    .guia #nube-blanca-secguia{
+        width:420%;
+        position: absolute;
+        z-index: 1;
+        height: 55%;
+        margin-top: 0%;
+        margin-right: -320%;
+        margin-left: 0%;
+    }
+    .guia #fondo-secguia{
+        width: 420%;
+        margin-top: 80%;
+    }
+    .guia .descrip-guia{
+        width: 290%;
+        margin-left: 30%;
+        margin-top: -230%;
+        
+    }
+    .descrip-guia h3{
+        margin-left: 3%;
+        margin-top: 2%;
+        font-size: 65px;
+
+    }
+    .descrip-guia p{
+        margin-left:3%;
+        margin-right: 3%;
+        margin-top: 2%;
+        font-size: 45px;
+    }
+    .descrip-guia button{
+        margin-left: 3%;
+        font-size: 35px;
+        margin-bottom: -18px;
+    }
+    .guia #img-guia{
+        position: absolute;
+        z-index: 2;
+        margin-top: -410%;
+        width: 160%;
+        height: 60%;
+        margin-right: -190%;
+    }
+    .guia #circle{
+        margin-top: -260%;
+        margin-left: 13%;
+        width: 300px;
+        height: 300px;
+    }
+    .guia #cuadro-difum{
+        margin-top: -150%;
+        width: 150%;
+        height: 58%;
+        margin-left: 73%;
+    }
+    .guia #circle-rayas{
+        margin-top: -310%;
+        margin-right: -175%;
+        width: 300px;
+        height: 300px;
+        position: absolute;
+        z-index: 2;
+    }
+    .guia #nube-button-guia{
+        width:420%;
+        position: absolute;
+        z-index: 1;
+        height: 55%;
+        margin-top: -85%;
+        margin-right: 320%;
+        margin-left: 0%;
+    }
+    
+    .Avatares #nube-av{
+        width:420%;
+        height: 55%;
+        position: absolute;
+        z-index: 1;
+        margin-right: 320%;
+        margin-left: 0%;
+        margin-top: -98%;
+    }
+    .Avatares #nube-av2{
+        width:420%;
+        position: absolute;
+        z-index: 1;
+        height: 55%;
+        transform: rotate(180deg);
+        margin-right: 320%;
+        margin-left: 0%;
+    }
+    .Av-personalizado{
+        background-color: white;
+        width: 420%;
+        height: 200%;
+        margin-left: 0%;
+        margin-top: 120%;
+        margin-right: 40%;
+        flex-direction: column;
+
+    }
+    .Avatares #fondo-secav{
+        display: none;
+    }
+    .Av-personalizado .Avatar1, .Avatar2, .Avatar3{
+    padding: 4%;
+    margin-top: 2%;
+    border-radius: 5%;
+    margin-right: 10%;
+    height: 700px;
+    width: 80%;
+    }
+    .Av-personalizado p{
+        font-size: 50px;
+    }
+    .Av-personalizado h4{
+        margin-top: 0%;
+        font-size: 60px;
+    }
+    .Avatar1 img, .Avatar2 img, .Avatar3 img{
+        width: 400px;
+        height: 400px;
+    }
+    .Avatares h3{
+        margin-top: 370px;
+        margin-right: 28%;
+        font-size:75px;
+        margin-left: 53%;
+        color: darkslategrey;
+        width: 1000px;
+        
+    }
+    .Avatares #nube-avbutton{
+        margin-top: 2700px;
+        width:420%;
+        height: 55%;
+        position: absolute;
+        z-index: 1;
+        margin-right: 320%;
+        margin-left: 0%;
+    }
+    .razones #nube-razones{
+        margin-top: -900px;
+        width:420%;
+        height: 55%;
+        position: absolute;
+        z-index: 1;
+        margin-right: 320%;
+        margin-left: 0%;
+    }
+    
+    .razones{
+        margin-top: 4000px;
+    }
+    .edén #nube-Eden1{
+        width:420%;
+        height: 55%;
+        position: absolute;
+        z-index: 1;
+        margin-right: 320%;
+        margin-left: 0%;
+        margin-top: -600px;
+    }
+    .edén #nube-Eden2{
+        width:420%;
+        height: 55%;
+        position: absolute;
+        z-index: 1;
+        margin-right: 320%;
+        margin-left: 0%;
+        margin-top: -100px;
+    }
+    .edén #nube-Eden3{
+        width:420%;
+        height: 55%;
+        position: absolute;
+        z-index: 0;
+        margin-right: 320%;
+        margin-left: 0%;
+        margin-top: -120px;
+    }
+    .edén{
+        width: 1730px;
+        margin-top: 600%;
+    }
+
+    .ojoeden{
+        flex-direction: column;
+    }
+
+    .texto-eden{
+        width: 90%;
+        height: 50%;
+    }
+
+    .texto-eden h3{
+        width: 100%;
+        font-size: 170px;
+        padding-bottom: 50px;
+    }
+
+    .texto-eden p{
+        width: 90%;
+        align-items: center;
+        font-size: 70px;
+        line-height: 110px;
+    }
+
+    .texto-eden button{
+        letter-spacing: 2px;
+        font-size: 50px;
+        margin: 100px auto;
+        margin-left: 4%;
+        width: 700px;
+        height: 200px;
+    }
+
+    .imagen-eden{
+        width: 1500px;
+        height: auto;
+        margin: 50px;
+        padding-left: 50px;
+        margin-bottom: 10%;
+        margin-top: 10%;
+    }
+    .edén #nube-eden-button{
+        width:420%;
+        height: 55%;
+        position: absolute;
+        z-index: 1;
+        margin-right: 320%;
+        margin-left: 0%;
+        margin-top: -150px;
+    }
+    .edén #nube-eden-button2{
+        width:420%;
+        height: 55%;
+        position: absolute;
+        z-index: 0;
+        margin-right: 320%;
+        margin-left: 0%;
+        margin-top: -320px;
+    }
+    .formulario #nube-formtop{
+        width:420%;
+        height: 55%;
+        position: absolute;
+        z-index: 1;
+        margin-right: 320%;
+        margin-left: 0%;
+        margin-top: -40px;
+    }
+
+    .formulario{
+        width: 1730px;
+        height: 5000px;
+    }
+    
+    #imagen-form{
+        width: 1270px;
+        height: 1270px;
+        margin-left: 18%;
+        margin-top: 500px;
+    }
+
+    .circulo1{
+        background-color: rgb(95, 159, 208);
+        bottom: 2300px;
+        left: 200px;
+        width: 540px;
+        height: 540px;
+    }
+    
+    .circulo2{
+        bottom: 1600px;
+        left: 500px;
+    }
+    
+    .circulo3{
+        bottom: 3550px;
+        right: 240px;
+        width: 700px;
+        height: 700px;
+    }
+    
+    .minicirculo1{
+        left: 120px;
+        top: 120px;
+        width: 450px;
+        height: 450px;
+    }
+
+    form{
+        border-radius: 50px;
+        margin-left: 10%;
+        margin-right: 10%;
+        width: 80%;
+        height: 45%;
+        padding: 80px;
+        font-size: 70px;
+        position: relative;
+        top: 1200px;
+    }
+
+    form h1{
+        padding: 100px 0 100px 0;
+        font-size: 110px;
+    }
+    
+    input,textarea {
+        border-radius: 40px;
+        border: solid 3px gray;
+        padding: 6%;
+        margin-bottom: 5%;
+        width: 100%;
+        font-size: 80px;
+    }
+
+    textarea{
+        height: 500px;
+    }
+    
+    form button{
+        width: 100%;
+        height: 10%;
+        border-radius: 40px;
+        font-size: 80px;
+    }
+
+    footer {
+        width: 1730px;
+        height: 300px;
+        font-size: 35px;
+        padding: 20%;
+    }
 }
-
-
-
-
-
